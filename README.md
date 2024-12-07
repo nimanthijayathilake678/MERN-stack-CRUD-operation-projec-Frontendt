@@ -49,7 +49,7 @@ Confirm the action.
 ## Screenshots
 
 ### Home Page
-![Home Page](src/assets/screenshots/add-student-form.png)
+![Home Page](src/assets/screenshots/home-page.png)
 
 ### Add Student Form
 ![Add Student Form](src/assets/screenshots/add-student-form.png)
