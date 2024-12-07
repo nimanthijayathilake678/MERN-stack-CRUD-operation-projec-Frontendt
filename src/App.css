@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  padding-top: 10px;
+}
+
+body {
+  background-color: #f9f9f9;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-add {
+  background-color: #ff9800;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-add:hover {
+  background-color: #e68900;
+}
+
+.btn-edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #3e8e41;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+}
+
+.addContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tableContainer {
+  margin-top: 30px;
+}
+
+.tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableContainer table thead tr {
+  background-color: #f1f1f1;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+}
+
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableContainer table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+.button-container {
+  margin-bottom: 20px;
+  text-align: right; /* Aligns buttons to the right */
+}
+
+.btn-add,
+.btn-close {
+  display: inline-block; /* Ensures buttons are inline */
+  margin-left: 10px; /* Adds some spacing between buttons */
+}
+
+.btn-close {
+  background-color: #6c757d;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-close:hover {
+  background-color: #5a6268;
+}
